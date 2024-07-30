@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422684699527",
+    "project_id": "lin-ku",
+    "storage_bucket": "lin-ku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422684699527:android:970c188065c4ed3fc68122",
+        "android_client_info": {
+          "package_name": "com.surviveym.linkuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422684699527-4rhpb9q7r1sgf3u21u24nc9rri1roukp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuNUa0BCtnW545zGkU5OUUW7DKlqL8tCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422684699527-4rhpb9q7r1sgf3u21u24nc9rri1roukp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
