@@ -1,6 +1,7 @@
 //welcome_screen.dart
 import 'package:flutter/material.dart';
 import 'package:linkuapp/login/google_login.dart';
+import 'package:linkuapp/login/email_login.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -164,7 +165,9 @@ class LoginSignUpSheet extends StatelessWidget {
           ),
           SizedBox(height: 20),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/email-login'); // 이메일 로그인 페이지로 이동
+            },
             style: ElevatedButton.styleFrom(
               backgroundColor: Color(0xFF8A61FF),
               padding: EdgeInsets.symmetric(vertical: 15),
